@@ -8,7 +8,7 @@
 - LnmFTP: 主要用于搭建企业FTP文件管理系统、支持SSL+密码验证机制和WEB用户管理
 
 
-/* - [二次开发文档](./docs/develop-guide-zh.md) */
+ - [二次开发文档](./docs/develop-guide-zh.md) 
 
 ##  更新记录
 
@@ -20,8 +20,7 @@
 
 ##  资源下载
 
-### Python
-- [Python2.7.15](./files/Py27lnmos-2.7.15-6.el6.x86_64.rpm)
+- [文件包](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files)
 
 
 ## License
