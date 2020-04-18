@@ -21,7 +21,7 @@
 ##  资源下载
 
 ### Python
-
+- [Python2.7.15](./files/Py27lnmos-2.7.15-6.el6.x86_64.rpm)
 
 
 ## License
