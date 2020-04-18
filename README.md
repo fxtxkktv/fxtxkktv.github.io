@@ -14,7 +14,9 @@
 
 ##  资源下载
 
-- [文件列表](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files)
+- [SSLVPN客户端](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/SSLVPN客户端/)
+- [RPM组件包](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/RPM组件包/)
+- [Docs文档](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/Docs文档)
 
 ## 捐赠
 ![其余界面](./docs/pay.jpg)
