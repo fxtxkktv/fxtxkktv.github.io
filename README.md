@@ -20,9 +20,8 @@
 
 ##  资源下载
 
-- [文件包](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files)
+- [文件列表](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files)
 
 
-## License
-
-MIT
+## 捐赠
+![其余界面](https://github.com/fxtxkktv/lnmVPN/blob/master/readme/pay.jpg)
