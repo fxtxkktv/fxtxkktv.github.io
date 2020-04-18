@@ -1,4 +1,4 @@
-![preview](./docs/snap.png)
+![preview](./docs/index.png)
 
 ## 在线预览(Online demo)
 
