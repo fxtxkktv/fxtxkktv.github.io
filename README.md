@@ -1,6 +1,3 @@
-hexo-theme-archer
-================
-
 ![preview](./docs/snap.png)
 
 ## 在线预览(Online demo)
