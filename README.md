@@ -1,6 +1,4 @@
-![preview](./assets/img/index.png)
-
-## 说明
+## 项目说明
 
 - Python项目
 - [LnmVPN](https://github.com/fxtxkktv/lnmVPN): 主要用于企业VPN内部服务和路由共享，基于Ocserv和UTM构建，支持AnyConnect/OpenConnect连接

@@ -527,7 +527,7 @@ form {
 #header_wrap {
     content: "";
     display: block;
-    position: fixed;
+    //position: fixed;
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -536,7 +536,6 @@ form {
     background-repeat: no-repeat;
     background-position: center center;
     //background: url("../img/index.png") no-repeat ;
-    //background: #212121;
     //background: -moz-linear-gradient(top, #373737, #212121);
     //background: -webkit-linear-gradient(top, #373737, #212121);
     //background: -ms-linear-gradient(top, #373737, #212121);
