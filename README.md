@@ -1,4 +1,4 @@
-![preview](./docs/index.png)
+![preview](./assets/img/index.png)
 
 ## 说明
 
@@ -18,4 +18,4 @@
 - [Docs文档](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/Docs文档)
 
 ## 捐赠
-![其余界面](./docs/pay.jpg)
+![其余界面](./assets/img/pay.jpg)
