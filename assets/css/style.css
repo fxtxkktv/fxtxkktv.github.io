@@ -346,6 +346,7 @@ p {
 }
 
 footer p {
+    display: none ;
     color: #f2f2f2
 }
 
@@ -615,7 +616,7 @@ form {
 }
 
 #footer_wrap {
-    background: #212121
+    background: #f2f2f2
 }
 
 @media screen and (max-width: 992px) {
