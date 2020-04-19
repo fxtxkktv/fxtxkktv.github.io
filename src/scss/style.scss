@@ -1,3 +1,12 @@
+
+@import "{{ site.theme }}";
+ 
+h1 {
+ 
+display: none;
+ 
+}
+
 // Helpers
 @import '_variables';
 @import '_normalize';
