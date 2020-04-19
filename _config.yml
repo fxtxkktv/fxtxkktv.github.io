@@ -5,6 +5,8 @@ avatar: /avatar/Misaka.jpg
 author: fi3ework
 # signature
 signature: witness me
+#theme
+theme:jekyll-theme-cayman
 # SNS (you can custom the order)
 social:
   email: 12345@qq.com
