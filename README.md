@@ -9,7 +9,7 @@
 
 ##  更新记录
 
-- 2020.04.19 - 『新增项目支持EL7组件包，[Centos/RedHat el7](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/RPM组件包/el7) 』
+- 2020.04.19 -『新增项目支持EL7组件包.[Centos/RedHat el7](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/RPM组件包/el7) 』
 
 ##  资源下载
 
