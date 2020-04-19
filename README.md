@@ -1,6 +1,5 @@
 ### 项目说明
 
-- Python项目
 - [LnmVPN](https://github.com/fxtxkktv/lnmVPN): 主要用于企业VPN内部服务和路由共享，基于Ocserv和UTM构建，支持AnyConnect/OpenConnect连接
 - [LnmOPS](https://github.com/fxtxkktv/lnmOPS): 主要用于企业信息化运维，支持linux/windows系统任务集中调度，支持无缝API接口，资产管理
 - [LnmFTP](https://github.com/fxtxkktv/lnmFTP): 主要用于搭建企业FTP文件管理系统、支持SSL+密码验证机制和WEB用户管理
