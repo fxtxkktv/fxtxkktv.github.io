@@ -9,8 +9,7 @@
 
 ##  更新记录
 
-- 2018.06.23 - 『添加 Valine 评论，感谢 [hulichao](https://github.com/fi3ework/hexo-theme-archer/issues/115) 同学』
-- 2018.07.09 - 『可以切换深/浅色代码配色方案了，[详情](https://github.com/fi3ework/hexo-theme-archer/wiki/%E5%88%87%E6%8D%A2%E4%BB%A3%E7%A0%81%E9%85%8D%E8%89%B2%E6%96%B9%E6%A1%88)』
+- 2020.04.19 - 『新增项目支持EL7组件包，[Centos/RedHat el7](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/RPM组件包/el7) 』
 
 ##  资源下载
 
