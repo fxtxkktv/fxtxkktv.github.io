@@ -12,6 +12,7 @@
 
 ####  资源下载
 
+- [Python部署脚本](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/Install_LnmOS_env.sh)
 - [SSLVPN客户端](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/SSLVPN客户端/)
 - [RPM组件包](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/RPM组件包/)
 - [Docs文档](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/Docs文档)
