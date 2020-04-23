@@ -8,7 +8,7 @@
 
 - 2020.04.19 -『新增一键安装环境脚本[Install_LnmOS_env.sh](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/)』
 - 2020.04.18 -『新增项目支持EL7组件包.[Centos/RedHat el7](https://github.com/fxtxkktv/fxtxkktv.github.io/tree/master/files/RPM组件包/el7)』
-- 2020.04.03 -『修复lnmVPN[LnmVPN](https://github.com/fxtxkktv/lnmVPN)程序路径bug』
+- 2020.04.03 -『修复[LnmVPN](https://github.com/fxtxkktv/lnmVPN)程序路径bug』
 
 ####  资源下载
 
