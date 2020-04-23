@@ -1,5 +1,3 @@
-<title>Github Page demo</title>
-
 #### 项目说明
 
 - [LnmVPN](https://github.com/fxtxkktv/lnmVPN): 主要用于企业VPN内部服务和VPN路由共享，基于Ocserv和UTM构建，支持AnyConnect/OpenConnect连接
