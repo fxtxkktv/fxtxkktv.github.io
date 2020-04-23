@@ -1,6 +1,4 @@
-<head>
-    <title>Github Page demo</title>
-</head>
+<title>Github Page demo</title>
 
 #### 项目说明
 
