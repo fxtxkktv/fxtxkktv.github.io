@@ -28,7 +28,13 @@ else
 fi
 
 echo -en "\n2. ==========>>>> 安装Python组件包\n"
-relversion=$(rpm -q centos-release|cut -d- -f3)
+relversion=$(rpm --eval "%{rhel}")
+if [ -n "$(echo $relversion| sed -n "/^[0-9]\+$/p")" ] && [[ $relversion > 5 ]] ;then
+   true
+else
+   echo -en "\n操作系统未正确识别或版本过低,请手动安装 https://github.com/fxtxkktv/fxtxkktv.github.io/files\n"
+   exit 1
+fi 
 downurl="""https://raw.githubusercontent.com/fxtxkktv/fxtxkktv.github.io/master/files/RPM%E7%BB%84%E4%BB%B6%E5%8C%85/el${relversion}/Python27/Py27lnmos-2.7.16-6.el${relversion}.x86_64.rpm"""
 
 wget -P /tmp $downurl
