@@ -19,7 +19,15 @@
 # 　　　　　　┗┻┛　┗┻┛+ + + +                               #
 # + + + ++ + + ++ + + ++ + + ++ + + ++ + + ++ + + ++ + + ++ #
 echo -en "1. ==========>>>> 安装程序依赖包\n"
-yum -y install wget git gcc mysql-server mysql-devel MySQL-python gnutls-utils epel-release 
+relversion=$(rpm --eval "%{rhel}")
+if [ -n "$(echo $relversion| sed -n "/^[0-9]\+$/p")" ] && [[ $relversion < 7 ]] ;then
+   yum -y install tix libX11 db4 tcl tk wget git gcc MySQL-python gnutls-utils epel-release mysql-server
+elif [ -n "$(echo $relversion| sed -n "/^[0-9]\+$/p")" ] && [[ $relversion > 6 ]]:
+   yum -y install tix libX11 db4 tcl tk wget git gcc MySQL-python gnutls-utils epel-release mariadb-server
+else:
+   echo -en "\n操作系统未正确识别或版本过低,请手动安装 https://github.com/fxtxkktv/fxtxkktv.github.io/files\n"
+   exit 1
+fi
 if [[ $? = 0 ]];then
    true
 else
@@ -28,13 +36,6 @@ else
 fi
 
 echo -en "\n2. ==========>>>> 安装Python组件包\n"
-relversion=$(rpm --eval "%{rhel}")
-if [ -n "$(echo $relversion| sed -n "/^[0-9]\+$/p")" ] && [[ $relversion > 5 ]] ;then
-   true
-else
-   echo -en "\n操作系统未正确识别或版本过低,请手动安装 https://github.com/fxtxkktv/fxtxkktv.github.io/files\n"
-   exit 1
-fi 
 downurl="""https://raw.githubusercontent.com/fxtxkktv/fxtxkktv.github.io/master/files/RPM%E7%BB%84%E4%BB%B6%E5%8C%85/el${relversion}/Python27/Py27lnmos-2.7.16-6.el${relversion}.x86_64.rpm"""
 
 wget -P /tmp $downurl
