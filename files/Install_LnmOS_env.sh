@@ -22,9 +22,9 @@ echo -en "1. ==========>>>> 安装程序依赖包\n"
 relversion=$(rpm --eval "%{rhel}")
 if [ -n "$(echo $relversion| sed -n "/^[0-9]\+$/p")" ] && [[ $relversion < 7 ]] ;then
    yum -y install tix libX11 db4 tcl tk wget git gcc MySQL-python epel-release mysql-server
-elif [ -n "$(echo $relversion| sed -n "/^[0-9]\+$/p")" ] && [[ $relversion > 6 ]]:
+elif [ -n "$(echo $relversion| sed -n "/^[0-9]\+$/p")" ] && [[ $relversion > 6 ]] ;then
    yum -y install tix libX11 db4 tcl tk wget git gcc MySQL-python epel-release mariadb-server
-else:
+else
    echo -en "\n操作系统未正确识别或版本过低,请手动安装 https://github.com/fxtxkktv/fxtxkktv.github.io/files\n"
    exit 1
 fi
