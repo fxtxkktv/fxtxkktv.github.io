@@ -1,9 +1,9 @@
 #### 项目说明
 
-- [LnmVPN](https://github.com/fxtxkktv/lnmVPN)<br>主要用于企业VPN内部服务和VPN路由共享，基于Ocserv和UTM构建，支持AnyConnect/OpenConnect连接<br>
-- [LnmOPS](https://github.com/fxtxkktv/lnmOPS)<br>主要用于企业信息化运维，支持linux/windows系统任务集中调度，支持无缝API接口，资产管理<br>
-- [LnmFTP](https://github.com/fxtxkktv/lnmFTP)<br>主要用于搭建企业FTP文件管理系统、支持SSL+密码验证机制和WEB用户管理<br>
-- [LnmDNS](https://github.com/fxtxkktv/lnmDNS)<br>主要用于搭建企业DNS解析系统、支持A/MX/TXT/NS等记录解析管理,支持DDNS动态IP地址更新<br>
+- [LnmVPN](https://github.com/fxtxkktv/lnmVPN)<br>用于企业VPN内部服务和VPN路由共享，支持AnyConnect/OpenConnect连接<br>
+- [LnmOPS](https://github.com/fxtxkktv/lnmOPS)<br>用于企业信息化运维，支持linux/windows系统任务集中调度，支持API接口，资产管理<br>
+- [LnmFTP](https://github.com/fxtxkktv/lnmFTP)<br>用于搭建企业FTP文件管理系统、支持SSL+密码验证机制和WEB用户管理<br>
+- [LnmDNS](https://github.com/fxtxkktv/lnmDNS)<br>用于搭建企业DNS解析系统、支持A/MX/TXT/NS等记录解析管理,支持DDNS动态IP地址更新<br>
 
 ###  更新记录
 - 2020.05.30 -『新增lnmDNS项目代码[DNS](https://github.com/fxtxkktv/lnmDNS)』
