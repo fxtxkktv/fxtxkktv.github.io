@@ -49,7 +49,7 @@ fi
 
 export PATH=$PATH:/opt/Py27lnmos/bin
 
-wget -P /tmp https://bootstrap.pypa.io/2.7/get-pip.py
+wget -P /tmp https://bootstrap.pypa.io/pip/2.7/get-pip.py
 /opt/Py27lnmos/bin/python /tmp/get-pip.py 
 /opt/Py27lnmos/bin/pip install virtualenv
 
