@@ -1,6 +1,3 @@
----
-title: LnmOS
----
 #### 项目说明
 
 - [LnmVPN](https://github.com/fxtxkktv/lnmVPN)<br>用于企业VPN内部服务和VPN路由共享，支持AnyConnect/OpenConnect连接<br>
